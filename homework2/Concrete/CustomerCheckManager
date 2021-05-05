@@ -1,0 +1,16 @@
+
+package ınterfaceabstractdemo.Concrete;
+
+import ınterfaceabstractdemo.Abstract.PersonCheckServiceInterface;
+import ınterfaceabstractdemo.Entities.Customer;
+
+
+public class CustomerCheckManager implements PersonCheckServiceInterface {
+
+    @Override
+    public boolean CheckIfRealPerson(Customer customer) {
+        return true;
+    }
+    
+    
+}
